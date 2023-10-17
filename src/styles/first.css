@@ -1,0 +1,17 @@
+.firstmain{
+    width:100%;
+    height:25vh;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstinner{
+    width:23%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    border-radius:10px;
+    align-items:center;
+    background-color: white;
+}

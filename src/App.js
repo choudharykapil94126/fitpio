@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import './styles/Nevbar.css';
+import './styles/Graph.css';
+import './styles/first.css';
+import './styles/main.css';
+import './styles/upper.css';
+
+import Nevbar from './components/nevbar';
+import Right from './components/Right';
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="mainpage">
+      <Nevbar />
+      <Right />
     </div>
-  );
+    </>
+  )
 }
-
-export default App;
+export default App
