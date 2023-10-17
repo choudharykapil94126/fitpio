@@ -1,5 +1,18 @@
 import React from 'react'
 import Img1 from '../icons/setting.png';
+import arrow from '../icons/right-arrow.png';
+import product from '../icons/product.png';
+import customer from '../icons/cusomers.png';
+import income from '../icons/income.png';
+import promote from '../icons/promotions.png';
+import help from '../icons/information.png';
+import man from '../icons/navbottomimg.jpg';
+import down from '../icons/arrow-down-sign-to-navigate.png';
+
+
+
+
+
 
 const Nevbar = () => {
   return (
@@ -7,42 +20,69 @@ const Nevbar = () => {
     <div className="navContainer">
         <div className="upperConatiner">
         <h3><img src={Img1} alt="" /> Dashboard</h3>
-        <div className="navElement">
-            <img src="" alt="" />
-            <p>Dashboard</p>
-            <img src="" alt="" />
-        </div>
-        <div className="navElement">
-            <img src="" alt="" />
-            <p>Product</p>
-            <img src="" alt="" />
-        </div>
-            <img src="" alt="" />
-            <p>Customers</p>
-            <img src="" alt="" />
-        <div className="navElement">
-            <img src="" alt="" />
-            <p>Income</p>
-            <img src="" alt="" />
-        </div>
-        <div className="navElement">
-            <img src="" alt="" />
-            <p>Promote</p>
-            <img src="" alt="" />
-        </div>
-        <div className="navElement">
-            <img src="" alt="" />
-            <p>Help</p>
-            <img src="" alt="" />
-        </div>
-        </div>
-        <div classname="navbottom">
-            <img src="" alt="" />
-            <div className="navbottomcontant">
-                <p>Evano</p>
-                <p>Project Manager</p>
+        <div className="navElement firstnavElement">
+            <div>
+                <img src="" alt="" />
+                <p>Dashboard</p>
             </div>
-            <img src="" alt="" />
+            
+        </div>
+        <div className="navElement">
+            <div>
+                <img src={product} alt="" />
+                <p>Product</p>
+            </div>
+            
+            <img className="arrowkey" src={arrow} alt="" width="12px"/>
+            
+        </div>
+        <div className="navElement">
+            <div>
+                <img src={customer} alt="" />
+                <p>Customers</p>
+            </div>
+        
+            
+            <img className="arrowkey" src={arrow} alt="" width="12px"/>
+        </div>
+            
+        <div className="navElement">
+            <div>
+                <img src={income} alt="" />
+                <p>Income</p>
+            </div>
+           
+            <img className="arrowkey" src={arrow} alt="" width="12px"/>
+            
+        </div>
+        <div className="navElement">
+            <div>
+                <img src={promote} alt="" />
+                <p>Promote</p>
+            </div>
+            
+            <img className="arrowkey" src={arrow} alt="" width="12px"/>
+            
+        </div>
+        <div className="navElement">
+            <div>
+                <img src={help} alt="" />
+                <p>Help</p>
+            </div>
+            
+            <img className="arrowkey" src={arrow} alt="" width="12px" height="12px"/>
+            
+        </div>
+        </div>
+        <div className="navbottom">
+            <div className="navbottominner">
+                <img className="man" src={man} alt="" width="40px" />
+                <span className="navbottomcontant">
+                    <p>Evano</p>
+                    <p>Project Manager</p>
+                </span>
+            </div>
+            <img src={down} alt="" width="12px" style={{'marginRight' : "10px"}}/>
         </div>
         </div>
         

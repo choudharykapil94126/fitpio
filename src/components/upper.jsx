@@ -1,4 +1,6 @@
 import React from 'react'
+import waving from "../icons/waving-hand.png";
+
 
 const Upper = () => {
   return (
@@ -6,7 +8,7 @@ const Upper = () => {
     <div className="uppermain">
         <div className="leftupper">
             <p>Hello Shahrukh</p>
-            <i></i>
+            <img src={waving} alt="" width="15px"/>
         </div>
         <div className="rightuppe">
             <div className="searchmain">
