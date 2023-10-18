@@ -1,0 +1,45 @@
+.bottommain{
+    margin-top:20vh;
+    width:96%;
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    background-color: white;
+    border-radius:10px;
+    margin-left:20px;
+}
+.bottomtop{
+    display:flex;
+    justify-content: space-between;
+}
+.bottomtopright{
+    display:flex;
+}
+.bottomheads{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+    border-bottom:1px solid rgb(223, 215, 215)
+}
+.bottomheadsmiddle{
+    width:28%;
+    display:flex;
+    justify-content:space-between;
+}
+.bottombottom{
+    display:flex;
+    justify-content:space-between;
+}
+.leftbottom{
+    display:flex;
+    align-items:center;
+}
+.rightbottom{
+    display:flex;
+    width:28%;
+    justify-content: space-between;
+}
+.rightbottomp2{
+    margin-right:33px
+}

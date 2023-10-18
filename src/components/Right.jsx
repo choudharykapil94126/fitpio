@@ -2,6 +2,7 @@ import React from 'react';
 import Upper from './upper';
 import Graph from './Graph';
 import First from './first';
+import Bottom from './bottom';
 
 
 const Right = () => {
@@ -10,6 +11,7 @@ const Right = () => {
         <Upper />
         <First />
         <Graph />
+        <Bottom />
     </div>
   )
 }

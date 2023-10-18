@@ -1,5 +1,4 @@
 import React from 'react'
-import Img1 from '../icons/setting.png';
 import arrow from '../icons/right-arrow.png';
 import product from '../icons/product.png';
 import customer from '../icons/cusomers.png';
@@ -8,6 +7,8 @@ import promote from '../icons/promotions.png';
 import help from '../icons/information.png';
 import man from '../icons/navbottomimg.jpg';
 import down from '../icons/arrow-down-sign-to-navigate.png';
+import dashboard2 from '../icons/dashboard1.jpeg';
+import dashboard1 from '../icons/dashboard2.jpeg';
 
 
 
@@ -19,10 +20,10 @@ const Nevbar = () => {
     <>
     <div className="navContainer">
         <div className="upperConatiner">
-        <h3><img src={Img1} alt="" /> Dashboard</h3>
+        <h3><img src={dashboard1} alt=""  width="12px" style={{'marginTop' : "20px"}}/> Dashboard</h3>
         <div className="navElement firstnavElement">
             <div>
-                <img src="" alt="" />
+                <img src={dashboard2} alt="" />
                 <p>Dashboard</p>
             </div>
             

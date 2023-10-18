@@ -5,6 +5,7 @@ import './styles/Graph.css';
 import './styles/first.css';
 import './styles/main.css';
 import './styles/upper.css';
+import './styles/bottom.css';
 
 import Nevbar from './components/nevbar';
 import Right from './components/Right';

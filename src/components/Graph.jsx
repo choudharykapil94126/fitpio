@@ -6,12 +6,10 @@ const Graph = () => {
   return (
     <>
     <div className="maingraph">
-        <div>
-          <img src={leftgraph} alt="" />
-        </div>
-        <div>
-          <img src={rightgraph} alt="" />  
-        </div>
+      
+          <img className="leftimg" src={leftgraph} alt="" />
+          <img className="rightimg" src={rightgraph} alt="" />  
+        
     </div>
     </>
   )
